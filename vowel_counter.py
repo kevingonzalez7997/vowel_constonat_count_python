@@ -3,7 +3,7 @@ def vowel_counter(word):
     vowel_count = 0
     consonant_count = 0 
     for letter in word:
-        if letter in vowels:
+        if letter.lower() in vowels:
             vowel_count += 1
         elif letter.isalpha():
             consonant_count += 1
